@@ -8,7 +8,7 @@ class Paper {
           density: 1.2
       }
       this.diameter = diameter
-      this.body = Bodies.circle(x,y,diameter/4,options)
+      this.body = Bodies.circle(x,y,diameter/3,options)
       this.image = loadImage("paperimage.png")
       World.add(world, this.body);
  
